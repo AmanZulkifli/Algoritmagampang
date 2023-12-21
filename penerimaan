@@ -1,0 +1,14 @@
+var nilai = prompt("isi nilai mu dek");
+
+if (nilai >= 90 && nilai <= 100) {
+    console.log("Nilai sempurna dan lolos");
+} else if (nilai >= 80 && nilai < 90) {
+    jalur = prompt("mau jalur yang mana dek?")
+    if (jalur = (`jalur rapot`)) {
+        console.log("anda memilih jalur rapot");
+    } else if (jalur = (`jalur prestasi`)) {
+        console.log("anda memilih jalur prestasi");
+};
+} else (nilai < 80) {
+    console.log("tes mandiri boss");
+};
